@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "167161072389",
+    "project_id": "alisa-diya-poep2-st10037089",
+    "storage_bucket": "alisa-diya-poep2-st10037089.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167161072389:android:39af2894990595d42f456c",
+        "android_client_info": {
+          "package_name": "com.example.alisadiyapoep2st10037089"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNGBByllWtLHysMDSc-Ot8m2ztYzxRL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

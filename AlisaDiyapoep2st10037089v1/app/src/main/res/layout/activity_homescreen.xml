@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Beebusyyellow"
+    tools:context=".Homescreen">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="401dp"
+        android:layout_height="237dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/alisa" />
+
+    <TextView
+        android:id="@+id/TVsolgan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets BUZZ into productivity with beebusy timer"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/TVabout1"
+        android:layout_width="405dp"
+        android:layout_height="310dp"
+        android:text="BeeBusy Timer is a productivity app designed to combat procrastination. It features a countdown timer to track task durations, rewarding users with virtual flowers upon completion. These flowers are stored in a virtual bee garden, serving as motivation. Users can set study goals, earning additional flowers upon achievement. The app also includes a shortcut for quick access to daily tasks, promoting efficiency. Embrace productivity one task at a time with BeeBusy Timer!"
+        android:textAlignment="center"
+        android:textColor="#197885"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVsolgan1"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <Button
+        android:id="@+id/btnlgs"
+        android:layout_width="400dp"
+        android:layout_height="58dp"
+        android:background="@drawable/regbutton"
+        android:text="Lets get started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVabout1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
